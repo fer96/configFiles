@@ -4,11 +4,15 @@ A simple repository to set a nice terminal for MacOS in a simple and fastest way
 
 ## Previous requirements
 
-+	Install [Homebrew](https://brew.sh/) (open-source software package management system)
++ Install [Homebrew](https://brew.sh/) (open-source software package management system)
 ```sh
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
+
+#### Choose an editor text 
+
 + Install [Sublime Text](https://www.sublimetext.com/3)
++ Install [Visual Studio Code](https://code.visualstudio.com)
 
 ## Step by step
 
@@ -55,10 +59,15 @@ POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%{%B%F{black}%K{yellow}%} $user_symbo
 # SUBLIME
 # This is an alias optional
 alias sublime="open -a /Applications/Sublime\ Text.app"
+
+# VISUAL STUDIO CODE
+# This is an alias optional
+alias vscode="open -a /Applications/Visual\ Studio\ Code.app"
 ```
+
 4. Open terminal preferences and (cmd + ,)
 5. Go to profiles
 6. Select add profile
 7. Import _darkTheme.terminal_ profile
 8. Select _darkTheme_ as your default theme
-9. Close and open the terminal to see the changes
+9. Close and restart the terminal to see the changes
